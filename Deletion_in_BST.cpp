@@ -1,3 +1,15 @@
+#Finding INORDER_SUCCESSOR 
+
+node * minValueNode(node * temp)
+{
+	node * current=temp;
+	while(current && current->lchild != NULL)
+		current=current->lchild;
+	return current;
+}
+
+
+#Deletion opeation
 node * deletenode(node *root,int key)
 {
 	if(root==NULL)
