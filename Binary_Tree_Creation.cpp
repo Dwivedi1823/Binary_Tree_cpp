@@ -1,3 +1,12 @@
+int main()
+{	
+	cout<<"Enter the root value: ";
+	node *root=create();
+	
+	return 0;
+}
+
+
 node* create()
 {
 	node *newnode=new node();
